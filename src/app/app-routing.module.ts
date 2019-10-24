@@ -16,7 +16,7 @@ const app_routes: Routes = [
 const routes: Routes = [];
 
 @NgModule({
-  imports: [ RouterModule.forRoot( app_routes ) ],
+  imports: [ RouterModule.forRoot( app_routes, { useHash: true } ) ],
   exports: [ RouterModule ]
 })
 
